@@ -1,0 +1,36 @@
+
+$theme-color : rgb(208, 80, 80);
+$logo-color : rgb(60, 2, 60);
+$link-color : rgb(222, 213, 213);
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: $theme-color;
+
+    .logo{
+        color: $logo-color;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        .header-links{
+            display: flex;
+            text-decoration: none;
+            li{
+                a{
+                    text-decoration: none;
+                    padding: 5px;
+                    font-weight: 800;
+                    font-size: 20px;
+                    color: $link-color;
+                }
+            }
+        }
+    }
+
+}

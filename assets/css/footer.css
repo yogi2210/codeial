@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: left;
+  background-color: gray;
+  color: white;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  list-style: none;
+}
+.footer .copyright li {
+  padding: 0 5px;
+}
+.footer .footer-links-div .footer-links-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+}
+.footer .footer-links-div .footer-links-list a {
+  text-decoration: none;
+  color: white;
+}
+.footer .footer-links-div .footer-links-list a:hover {
+  color: rgb(227, 226, 132);
+}
+
+/*# sourceMappingURL=footer.css.map */

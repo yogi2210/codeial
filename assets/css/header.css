@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgb(208, 80, 80);
+}
+.header .logo {
+  color: rgb(60, 2, 60);
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header ul .header-links {
+  display: flex;
+  text-decoration: none;
+}
+.header ul .header-links li a {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(222, 213, 213);
+}
+
+/*# sourceMappingURL=header.css.map */
