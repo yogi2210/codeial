@@ -9,7 +9,8 @@ console.log('router loaded')
 
 router.get('/', homeController.home)
 router.use('/users', require('./users'))
-router.use('/contact', require('./contact'))
+router.use('/posts', require('./posts'))
+
 
 
 
